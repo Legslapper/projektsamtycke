@@ -3,7 +3,7 @@ google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
   var data = google.visualization.arrayToDataTable([
-    ['Årskurs', 'ÅLderskillnad'],
+    ['Årskurs', 'Ålderskillnad'],
     [ 1,      7],
     [ 2,      6],
     [ 3,     5],
