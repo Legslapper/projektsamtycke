@@ -22,7 +22,7 @@ body{
   font-size: 15px;
   margin: 0;
   color: #000000;
-  background-color: #e5989b;;
+  background-color: #f4d4d5;
   line-height: 2.3em;
   height: 100%;
   width: 100%;
@@ -39,6 +39,7 @@ body{
   top: 0;
   width: 100%;
   box-shadow: 1px 1px 16px -1px rgba(0,0,0,0.19);
+  transition: 2s;
 }
 .topbar{
   padding-top: 0px;
@@ -143,16 +144,107 @@ svg{
   color: #e5989b;
 }
 .wrapper{
-  padding: 40px 50px;
+  padding: 40px 80px;
   margin-top: 80px;
   max-height: 100%;
-  background-color: #e5989b;
+  background-color: #f4d4d5;
 }
 .wrapper-inner{
   width: 100%;
   background-color: #fff;
   padding: 0px 30px;
   min-height: 100%;
+}
+.first{
+  margin-top: 115px;
+}
+.main-content{
+  z-index: 1;
+}
+.front-img{
+  width:200%;
+  float: left;
+}
+.container{
+  background: #fff!important;
+  box-shadow: none!important;
+  height: auto;
+  min-height: auto;
+  max-height: 600px;
+  padding: 7% 0;
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+}
+.col-black {
+  color: black;
+}
+.container-column{
+  padding-top: 20px!important;
+  padding-bottom: 70px!important;
+  display: flex;
+  direction: ltr;
+  width: 100%;
+  max-width: 1300px;
+  height: auto;
+  min-height: auto;
+  padding: 27px 0;
+  background-size: cover;
+  background-position: 50%;
+  margin: auto;
+  position: relative;
+}
+.container-column-content{
+  order: 1;
+  width: 47.25%;
+  margin-right: 5.5%;
+  padding-top: 0px;
+  padding-bottom: 80px;
+  margin: auto 0;
+  background-size: cover;
+  background-position: 50%;
+  z-index: 2;
+}
+.container-column-content-desc{
+  margin-bottom: 100px;
+  margin-top: -40px!important;
+  padding: 0!important;
+  background-position: 50%;
+  color: #fff!important;
+}
+.container-column-content-gif{
+  position: relative;
+  top: -40px!important;
+  margin-left: 20%!important;
+  width: 33%;
+  
+}
+.container-header{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 700;
+  letter-spacing: -2px;
+  font-size: 50px!important;
+  color: #e5989b!important;
+  line-height: 1.4em!important;
+}
+.container-text{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: normal;
+  font-size: 18px!important;
+  color: #000000!important;
+  
+}
+.container-column-content-text{
+  padding-bottom: 20px;
+  margin-left: 5%;
+}
+.white{
+  background: #fff!important;
+  box-shadow: none!important;
+}
+
+.m-left{
+  margin-left: 3%!important;
 }
 .lbs-img{
   width: 25%;
@@ -204,7 +296,7 @@ svg{
 }
 .avsnitt-titel {
   margin-top: 30px;
-  font-size: 28px!important;
+  font-size: 30px!important;
   font-weight: 500;
   font-family: 'Oxygen', sans-serif;
   color: #e5989b;
@@ -281,6 +373,7 @@ row{
   width: 100%;
   text-align: center;
 }
+
 .abort-card {
   background-color: #FFCDB2;
   width: 25%;
