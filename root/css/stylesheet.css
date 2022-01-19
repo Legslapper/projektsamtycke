@@ -5,11 +5,6 @@
 html{
   scroll-behavior: smooth;
 }
-:target{
-  display: block;
-  position: relative;
-  top: -120px; 
-}
 div, h1, h2, p, a{
   margin: 0;
   padding: 0;
@@ -181,6 +176,9 @@ svg{
   background-position: 50%;
   background-size: cover;
 }
+.col-black {
+  color: black;
+}
 .container-column{
   padding-top: 20px!important;
   padding-bottom: 70px!important;
@@ -211,7 +209,6 @@ svg{
   margin-bottom: 100px;
   margin-top: -40px!important;
   padding: 0!important;
-  background-size: cover;
   background-position: 50%;
   color: #fff!important;
 }
@@ -225,7 +222,7 @@ svg{
 .container-header{
   font-family: 'Oxygen', sans-serif;
   font-weight: 700;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   font-size: 50px!important;
   color: #e5989b!important;
   line-height: 1.4em!important;
@@ -235,7 +232,7 @@ svg{
   font-weight: normal;
   font-size: 18px!important;
   color: #000000!important;
-  line-height: 1.4em!important;
+  
 }
 .container-column-content-text{
   padding-bottom: 20px;
@@ -245,10 +242,7 @@ svg{
   background: #fff!important;
   box-shadow: none!important;
 }
-.col-black{
-  color: #000000!important;
-  opacity: 90%;
-}
+
 .m-left{
   margin-left: 3%!important;
 }
@@ -302,7 +296,7 @@ svg{
 }
 .avsnitt-titel {
   margin-top: 30px;
-  font-size: 28px!important;
+  font-size: 30px!important;
   font-weight: 500;
   font-family: 'Oxygen', sans-serif;
   color: #e5989b;
@@ -379,6 +373,7 @@ row{
   width: 100%;
   text-align: center;
 }
+
 .abort-card {
   background-color: #FFCDB2;
   width: 25%;
@@ -388,4 +383,7 @@ row{
 }
 .abort-card p {
   margin: 2.667%;
+}
+hr {
+  margin-bottom:75px; 
 }
